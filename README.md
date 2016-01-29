@@ -29,7 +29,8 @@ Familiarity with relevant software tools would be a plus, but is not necessary a
 # Part 0:  Introduction, Visualizing Temporal Dynamics, Twitter API connection up and running
 
 ## Week  1,  January  19:  Course  Introduction,  Visualization  types  -  TwitterAPI set up
-* [Lecture 1](/lectures/lecture1.md)
+
+###[Lecture 1](/lectures/lecture1.md)
 
 # Part 1:  Interactive Graphs with Twitter Data (Shiny, D3)
 
