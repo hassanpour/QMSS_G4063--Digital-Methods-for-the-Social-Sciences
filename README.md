@@ -32,18 +32,27 @@ Familiarity with relevant software tools would be a plus, but is not necessary a
 
 ####[Lecture 1](/lectures/lecture1.md)
 
-### Part 1:  Interactive Graphs with Twitter Data (Shiny, D3)
+## Part 1:  Interactive Graphs with Twitter Data (Shiny, D3)
 
-##### Week 2, 1.1, January 26:  Shiny Apps, Word frequency plots, Time-series visualization
-#####[Lecture 2]{/lectures/lecture2.md}
+### Week 2, 1.1, January 26:  Shiny Apps, Word frequency plots, Time-series visualization
 
-## Week 3, 1.2, February 2: Interactive Visualization with Shiny (D3) using Twitter Data
+#### [Lecture 2]{/lectures/lecture2.md}
 
-# Part 2:  Social Network Analysis and Visualization
+### Week 3, 1.2, February 2: Interactive Visualization with Shiny (D3) using Twitter Data
 
-# Part 3:  Text Analysis and Visualization
 
-# Part 4:  GIS Analysis and Visualization
 
-# Part 5:  Statistical Visualization, Machine Learning & Prediction
+## Part 2:  Social Network Analysis and Visualization
+
+
+
+## Part 3:  Text Analysis and Visualization
+
+
+
+## Part 4:  GIS Analysis and Visualization
+
+
+
+## Part 5:  Statistical Visualization, Machine Learning & Prediction
 
