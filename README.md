@@ -26,11 +26,11 @@ This course is designed to equip QMSS students with tools from datascience for c
 Familiarity with relevant software tools would be a plus, but is not necessary as we will have tutorials on the essential software through the semester.
 
 
-# Part 0:  Introduction, Visualizing Temporal Dynamics, Twitter API connection up and running
+## Part 0:  Introduction, Visualizing Temporal Dynamics, Twitter API connection up and running
 
-## Week  1,  January  19:  Course  Introduction,  Visualization  types  -  TwitterAPI set up
+### Week  1,  January  19:  Course  Introduction,  Visualization  types  -  TwitterAPI set up
 
-###[Lecture 1](/lectures/lecture1.md)
+####[Lecture 1](/lectures/lecture1.md)
 
 # Part 1:  Interactive Graphs with Twitter Data (Shiny, D3)
 
