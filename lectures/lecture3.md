@@ -97,6 +97,14 @@ output$info_click <- renderText({
 Think about how you can use that to make interactive plots and viusalizations, there is more information here: look for [interactive plots link](http://shiny.rstudio.com/articles/plot-interaction.html) on this [tutorial page](http://shiny.rstudio.com/articles/). You can familiarize yourself with a bit more involved interactive options [here at this link](http://shiny.rstudio.com/articles/plot-interaction-advanced.html).
 
 
+You will be able to find the R files at [this link on Course's GitHub](https://github.com/hassanpour/QMSS_G4063/tree/master/lectures/Shiny_Primaries). Make sure you also upload 
+
+1. your own tweets_BS.JSON (or whatever name your JSON tweet data file has), and 
+2. my_oauth.Rdata (the authorization codes from our first session)
+
+at your Shiny_Primaries directory. 
+
+
 Next week we will discuss D3. 
 
 
