@@ -1,4 +1,4 @@
-```{r}
+
 library(shiny)
 # ui.R
 
@@ -31,4 +31,4 @@ shinyUI(fluidPage(
   )
   
 ))
-```
+
