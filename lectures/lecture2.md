@@ -4,7 +4,7 @@
 Generating a word cloud and deciding on new keywords for filtering via Streaming API--parsed tweets are in tweets_BS.df:
 
 
-```
+```{r}
 library(tm)
 library(wordcloud)
 
