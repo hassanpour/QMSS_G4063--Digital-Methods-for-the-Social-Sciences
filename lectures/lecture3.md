@@ -32,7 +32,7 @@ shinyUI(fluidPage(
         label = "Choose a variable to display",
         choices = c("Hillary Clinton", "Bernie Sanders",
           "Ted Cruz", "Marco Rubio","Donald Trump"),
-        selected = "Percent White"),
+        selected = "Hillary Clinton"),
       
       sliderInput("range", 
         label = "Range of time",
