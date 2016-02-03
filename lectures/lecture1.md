@@ -8,7 +8,7 @@ What we learned in this lecture:
 
 ### Sample Code using StreamR
  
-```
+```{r}
 library(streamR)
 load("~/my_oauth.Rdata")
 filterStream("tweets_debate.json", track = c("bernie","sanders", "hillary", "clinton", "o'malley"), timeout = 600, oauth = my_oauth)
@@ -16,13 +16,13 @@ filterStream("tweets_debate.json", track = c("bernie","sanders", "hillary", "cli
 
 Parsing our tweets:
 
-```
+```{r}
 debate.df <- parseTweets("tweets_debate.json", simplify = TRUE)
 ```
 
 A quick count
 
-```
+```{r}
 length(grep("bernie sanders",   debate.df$text, ignore.case = TRUE))
 
 length(grep("halliary clinton", debate.df$text, ignore.case = TRUE))
