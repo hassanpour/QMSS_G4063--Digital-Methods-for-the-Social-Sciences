@@ -42,6 +42,7 @@ Familiarity with relevant software tools would be a plus, but is not necessary a
 
 ###[Lecture 3](/lectures/lecture3.md)
 
+###[Lecture 4](/lectures/lecture4.md)
 
 ## Part 2:  Social Network Analysis and Visualization
 
