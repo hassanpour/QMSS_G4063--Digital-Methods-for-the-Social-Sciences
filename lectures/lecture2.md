@@ -1,3 +1,11 @@
+What we learned in this lecture:
+
+1. How to start processing the tweets we collected last time
+2. How to implement a simple textual visualization after cleaning and stemming text
+3. How to interpret and reprogram the data collection process based on the visual results
+4. Also: started with the basics of webprgramming, server and user interface sides
+5. How to build a starter RShiny App
+
 
 ### Skimming the most frequent words in the tweet dataset
 
