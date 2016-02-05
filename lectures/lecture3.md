@@ -1,7 +1,7 @@
 What we learn in this lecture:
 
 1. How to run our first more involved RShiny App
-2. How to start pull ready widgets online for effective interfacing
+2. How to pull ready widgets online for effective interfacing
 3. How to start working with interactive plots that respond to _hovering_, _clicks_ and _drag&drop_ on the user side
 
 
