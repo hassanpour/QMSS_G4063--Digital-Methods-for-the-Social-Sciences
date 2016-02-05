@@ -1,9 +1,20 @@
 ##Lecture 4
 
-### TBA
+### Interactive data processing & visualization with D3 (Data-Driven Documents)
 
-For now, take a look at the required reading: [the D3 tutorial at this link](http://alignedleft.com/tutorials).
+Once you have access to the to Scott Murray's D3 tutorial book, first of all, I want you to fork [the repo at this GitHub link] (https://github.com/alignedleft/d3-book). Now you are ready to scheme the .pdf--provided to you on Coursewroks. If you do not have a GitHub account, you can simply download a .zip file containing all the sample codes from the repository's page 
 
+
+
+
+
+
+
+
+
+----
+
+Take a look at the required reading: [the D3 tutorial at this link](http://alignedleft.com/tutorials).
 
 Familiarize yourself with examples here: 
 
