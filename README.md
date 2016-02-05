@@ -38,7 +38,7 @@ Familiarity with relevant software tools would be a plus, but is not necessary a
 
 ###[Lecture 2](/lectures/lecture2.md)
 
-### Week 3 & 4, 1.2 & 1.3, February 2 & 9: Interactive Visualization with Shiny (D3) using Twitter Data
+### Week 3 & 4, 1.2 & 1.3, February 2 & 9: Interactive Visualization with Shiny & D3 using Twitter Data
 
 ###[Lecture 3](/lectures/lecture3.md)
 
