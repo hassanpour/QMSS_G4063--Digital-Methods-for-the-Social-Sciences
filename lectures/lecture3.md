@@ -1,3 +1,10 @@
+What we learn in this lecture:
+
+1. How to run our first more involved RShiny App
+2. How to start pull ready widgets online for effective interfacing
+3. How to start working with interactive plots that respond to _hovering_, _clicks_ and _drag&drop_ on the user side
+
+
 ### Intro
 
 Make sure you familiarize yourself with R Shiny, a platform for writing web applications for R. We will use Shiny and D3 for visualizing the tweets we are collecting. The goal is to analyze and visualize real time data. There is a good tutorial for starting out [here at this link](http://shiny.rstudio.com/tutorial/).
