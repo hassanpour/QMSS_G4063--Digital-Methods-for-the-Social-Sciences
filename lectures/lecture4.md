@@ -90,7 +90,15 @@ d3.select("body").selectAll("div")
 
 For producing some colorful SVG circles--and to appreciate the distinct features of scalable graphics--you can [run the code at this link](https://github.com/hassanpour/d3-book/blob/master/chapter_06/11_drawing_svgs_color.html). All you have to do is to copy and paste the .html content in your index.html file, and refresh [your local host link](http://localhost:8888/).
 
-#### _Transitions_ in D3
+#### Transitions and Interactivity in D3
+
+One of the key components of D3 is the ability to make a _transition_ from one state of the JS output to the other. The outcome, as you have already guessed, is a kind of animation in .html format on the web. You can control the nature of that transition by a simple command ```.duration()```. Check and run the code for a [generic transiton](https://github.com/hassanpour/d3-book/blob/master/chapter_09/05_transition.html) and a [_slow_ transition](https://github.com/hassanpour/d3-book/blob/master/chapter_09/08_duration_slow_labels_fixed.html). The key to produce two datasets, with their own Styles and SVGs and transition between the two, just the way animation is made:
+
+```javascript
+ .transition()							
+ .duration(5000)
+ ```
+ 
 
 
 
