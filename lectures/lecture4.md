@@ -31,7 +31,7 @@ Writing a D3 visualization is bascially producing an .html file that runs a JS c
 <body>
 <script type="text/javascript">
 
-// a short text output here
+// a short and expressive piece of text output here
 
 d3.select("body").append("p").text("My First D3 Visualization!");
 
