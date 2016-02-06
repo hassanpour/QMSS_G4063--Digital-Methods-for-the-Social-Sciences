@@ -40,6 +40,22 @@ d3.select("body").append("p").text("My First D3 Visualization!");
 </html>
 ```
 
+Note the easy (and customary) ways for reading CSV and JSON files into JS body of D3 code:
+
+```javascript
+d3.csv("My_CSV_File.csv", function(data) {
+console.log(data); //Log output to console
+});
+```
+
+Or the tweet JSON file we will use to visualize our tweets from the Primaries:
+
+```javascript
+d3.json("Primaries_Tweets.json", function(json) {
+console.log(json); //Log output to console
+});
+```
+
 
 
 
