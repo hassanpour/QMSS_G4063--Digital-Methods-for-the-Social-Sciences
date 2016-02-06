@@ -121,8 +121,9 @@ and
 
 SM Chapter 10 includes a number of good examples to start with. Check the chapter along [with the code](https://github.com/hassanpour/d3-book).
 
+#### Examples
 
-
+There is a wealth of examples [on Michael Bostock's GitHub](https://github.com/mbostock/d3/wiki/Gallery), which you can embed in your visual analysis of the tweet dataset. Start working with these examples to familiarize yourself with data processing, and visualization possibilities in D3. The index.html file in ```project-folder``` contains a number of those. 
 
 
 
