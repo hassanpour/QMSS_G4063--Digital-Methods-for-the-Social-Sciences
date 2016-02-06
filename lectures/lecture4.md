@@ -8,8 +8,13 @@ Once you have access to the to Scott Murray's D3 tutorial book, first of all, I 
 
 D3 (a Java based script for creating Data Driven Documents) is a powerful tool for writing code to produce visualizations directly from data. It incorporates SVGs (Scalable Vector Graphics) and CSS (Cascading Style Sheets) in an .html context for conductign _transition_s (animations) and interactions on the web. The code is in Java Script, and there are plenty of excellent ready platforms you can use to start running your own D3 visualizations. 
 
+For the start, download [_project-folder_]{https://www.dropbox.com/sh/39zdj9k1s1b7pgg/AAArnmc9Lhjf3wBoIW0YrQGqa?dl=0}. It includes a version of D3, and index.html, which is the file we will run to see visualizatins. After skimming Chapter 3 from Sott Murray's _Interactive Data Visualization for the Web_, run a local server at "project folder", where you can load `index.html` (See Chapter 4 of SM book). 
 
-
+``
+cd ~/.../project-folder
+python -m SimpleHTTPServer 8888 &
+``
+Now go to (http://localhost:8888/) to see the output from index.html.
 
 
 
