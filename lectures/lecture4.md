@@ -26,11 +26,15 @@ Writing a D3 visualization is bascially producing an .html file that runs a JS c
 <head>
 <meta charset="utf-8">
 <title>D3 Page Template</title>
-<script type="text/javascript" src="../d3/d3.v3.js"></script>
+<script type="text/javascript" src="../d3/d3.js"></script>
 </head>
 <body>
 <script type="text/javascript">
-// Your beautiful D3 code will go here
+
+// a short text output here
+
+d3.select("body").append("p").text("My First D3 Visualization!");
+
 </script>
 </body>
 </html>
