@@ -119,6 +119,8 @@ and
 			   });
 ```
 
+SM Chapter 10 includes a number of good examples to start with. Check the chapter along [with the code](https://github.com/hassanpour/d3-book).
+
 
 
 
