@@ -2,7 +2,7 @@
 
 ### Interactive data processing & visualization with D3 (Data-Driven Documents)
 
-Once you have access to the to Scott Murray's D3 tutorial book, first of all, I want you to fork [the repo at this GitHub link] (https://github.com/alignedleft/d3-book). Now you are ready to scheme the .pdf--provided to you on Coursewroks. If you do not have a GitHub account, you can simply download a .zip file containing all the sample codes from the repository's page 
+Once you have access to the to Scott Murray's D3 tutorial book, first of all, I want you to fork [the repo at this GitHub link] (https://github.com/alignedleft/d3-book). Now you are ready to skim the .pdf--provided to you on Coursewroks. If you do not have a GitHub account, you can simply download a .zip file containing all the sample codes from the repository's page 
 
 #### Intro to D3
 
