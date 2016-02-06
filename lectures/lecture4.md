@@ -4,7 +4,9 @@
 
 Once you have access to the to Scott Murray's D3 tutorial book, first of all, I want you to fork [the repo at this GitHub link] (https://github.com/alignedleft/d3-book). Now you are ready to scheme the .pdf--provided to you on Coursewroks. If you do not have a GitHub account, you can simply download a .zip file containing all the sample codes from the repository's page 
 
+#### Intro to D3
 
+D3 (a Java based script for creating Data Driven Documents) is a powerful tool for writing code to produce visualizations directly from data. It incorporates SVGs (Scalable Vector Graphics) and CSS (Cascading Style Sheets) in an .html context for conductign _transition_s (animations) and interactions on the web. The code is in Java Script, and there are plenty of excellent ready platforms you can use to start running your own D3 visualizations. 
 
 
 
