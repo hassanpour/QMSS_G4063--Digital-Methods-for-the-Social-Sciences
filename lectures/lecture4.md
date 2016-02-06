@@ -2,7 +2,7 @@
 
 ### Interactive data processing & visualization with D3 (Data-Driven Documents)
 
-Once you have access to the to Scott Murray's D3 tutorial book, first of all, I want you to fork [the repo at this GitHub link] (https://github.com/alignedleft/d3-book). Now you are ready to skim the .pdf--provided to you on Coursewroks. If you do not have a GitHub account, you can simply download a .zip file containing all the sample codes from the repository's page 
+Once you have access to the to Scott Murray's D3 tutorial book, first of all, I want you to fork [the repo at this GitHub link] (https://github.com/alignedleft/d3-book). Now you are ready to skim the .pdf of the book--a link is provided in the syllabus on Coursewroks. If you do not have a GitHub account, you can simply download a .zip file containing all the sample code from the repository's page 
 
 #### Intro to D3
 
@@ -16,9 +16,9 @@ cd ~/.../project-folder
 python -m SimpleHTTPServer 8888 &
 ``
 
-Now go to <http://localhost:8888/> to see the output from index.html. I recommend using Chrome. Once you open the page, go to View, Developer, JavaScript Console and you familiarize yourself with the environment Chapters 3 and 5 in SM are going to be helpful. For editing your index.htm file you can use either [_Brackets_](http://brackets.io/) or [_Atom_](https://atom.io/). Both work fine. 
+Now go to <http://localhost:8888/> to see the output from index.html. I recommend using Chrome. Once you open the page, go to View, Developer, JavaScript Console and you familiarize yourself with the environment. Chapters 3 and 5 in SM are going to be helpful. For editing your index.htm file you can use either [_Brackets_](http://brackets.io/) or [_Atom_](https://atom.io/). Both work fine. 
 
-Writing a D3 visualization is bascially producing an .html file that runs a JS code in the body--it does not use any ready image files (such as .jpg etc) and communicates with data files such as JSON and CSV directly. We will use some JSON and CSV files later to see how that works. First, let's try and run a simple code:
+Writing a D3 visualization is bascially producing an .html file that runs a JS code in the body--it does not use any ready image files (such as .jpg etc) and communicates with data files such as JSON and CSV directly. We will use some JSON and CSV files later to see how it works. First, let's try and run a simple code:
 
 ```javascript
 <!DOCTYPE html>
@@ -58,7 +58,7 @@ console.log(json); //Log output to console
 
 Read more about simple data input in SM Chapter 4.
 
-Now let's produce the first bar chart using D3. Files for SM tutorial book are available on the Book's GitHub. [At this link](https://github.com/hassanpour/d3-book/blob/master/chapter_06/05_power_of_data_more_points.html) you can find one sample file. See how the code starts with defining a CSS style at the header:
+Now let's produce the first bar chart using D3. Files for SM tutorial book are available on the Book's GitHub. [At this link](https://github.com/hassanpour/d3-book/blob/master/chapter_06/05_power_of_data_more_points.html) you can find the sample files. See how the code starts with defining a CSS style at the header:
 
 ```css
 <style type="text/css">
@@ -100,7 +100,7 @@ One of the key components of D3 is the ability to make a _transition_ from one s
  ```
  SM Chapter 9 is a good resource for becoming familar with the concept and implementation.
  
- Finally, in [the example at this link](https://github.com/hassanpour/d3-book/blob/master/chapter_10/08_sort_hover.html), a comibination of ```hover``` style-- and a conditional response on ```click``` produces a sorting response on the bar chart we produced before. Note the following. 
+Finally, in [the example at this link](https://github.com/hassanpour/d3-book/blob/master/chapter_10/08_sort_hover.html), a combination of ```hover``` style-- and a conditional response on ```click``` produces a sorting response on the bar chart we made before. Note the following. 
  
 
 ```javascript
@@ -123,15 +123,15 @@ SM Chapter 10 includes a number of good examples to start with. Check the chapte
 
 #### Examples
 
-There is a wealth of examples [on Michael Bostock's GitHub](https://github.com/mbostock/d3/wiki/Gallery), which you can embed in your visual analysis of the tweet dataset. Start working with these examples to familiarize yourself with data processing, and visualization possibilities in D3. The index.html file in ```project-folder``` contains a number of those. 
+There is a wealth of great examples [on Michael Bostock's GitHub](https://github.com/mbostock/d3/wiki/Gallery), which you can embed in your visual analysis of the tweet dataset--perhaps even for your first assignment. Start working with these examples to familiarize yourself with data processing and visualization possibilities in D3. The index.html file in ```project-folder``` contains a number of those. 
 
-We will discuss and execute some of these schemes using available data from the primaries tweet dataset. 
+We will discuss and execute some of sample visualizaitons using available data from the Primaries tweet dataset. 
 
 
 
 ----
 
-Take a look at the required reading: [the D3 tutorial at this link](http://alignedleft.com/tutorials).
+NB: Take a look at the required reading: [the D3 tutorial at this link](http://alignedleft.com/tutorials), and SM's book.
 
 Familiarize yourself with examples here: 
 
