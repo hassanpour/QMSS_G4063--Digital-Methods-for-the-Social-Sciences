@@ -98,7 +98,28 @@ One of the key components of D3 is the ability to make a _transition_ from one s
  .transition()							
  .duration(5000)
  ```
+ SM Chapter 9 is a good resource for becoming familar with the concept and implementation.
  
+ Finally, in [the example at this link](https://github.com/hassanpour/d3-book/blob/master/chapter_10/08_sort_hover.html), a comibination of ```hover``` style-- and a conditional response on ```click``` produces a sorting response on the bar chart we produced before. Note the following. 
+ 
+
+```javascript
+<style type="text/css">
+			rect:hover {
+				fill: orange;
+			}
+		</style>
+```
+
+and 
+
+```javascrip
+.on("click", function() {
+			   sortBars();
+			   });
+```
+
+
 
 
 
