@@ -12,9 +12,11 @@ For the start, download [_project-folder_]{https://www.dropbox.com/sh/39zdj9k1s1
 
 ``
 cd ~/.../project-folder
+
 python -m SimpleHTTPServer 8888 &
 ``
-Now go to (http://localhost:8888/) to see the output from index.html.
+
+Now go to <http://localhost:8888/> to see the output from index.html.
 
 
 
