@@ -56,6 +56,24 @@ console.log(json); //Log output to console
 });
 ```
 
+Read more about simple data input in SM Chapter 4.
+
+Now let's produce the first bar chart using D3. Files for SM tutorial book are available on the Book's GitHub. [At this link](https://github.com/hassanpour/d3-book/blob/master/chapter_06/05_power_of_data_more_points.html) you can find one sample file. See how the code starts with defining a CSS style at the header:
+
+```css
+<style type="text/css">
+		
+			div.bar {
+				display: inline-block;
+				width: 20px;
+				height: 75px;	/* Gets overriden by D3-assigned height below */
+				margin-right: 2px;
+				background-color: teal;
+			}
+		
+		</style>
+```
+and then 
 
 
 
