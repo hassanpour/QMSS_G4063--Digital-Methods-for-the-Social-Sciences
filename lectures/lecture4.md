@@ -16,7 +16,27 @@ cd ~/.../project-folder
 python -m SimpleHTTPServer 8888 &
 ``
 
-Now go to <http://localhost:8888/> to see the output from index.html.
+Now go to <http://localhost:8888/> to see the output from index.html. I recommend using Chrome. Once you open the page, go to View, Developer, JavaScript Console and you familiarize yourself with the environment Chapters 3 and 5 in SM are going to be helpful.
+
+Writing a D3 visualization is bascially producing an .html file that runs a JS code in the body--it does not use any ready image files (such as .jpg etc) and communicates with data files such as JSON and CSV directly. We will use some JSON and CSV files later to see how that works. First, let's try and run a simple code:
+
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>D3 Page Template</title>
+<script type="text/javascript" src="../d3/d3.v3.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+// Your beautiful D3 code will go here
+</script>
+</body>
+</html>
+```
+
+
 
 
 
