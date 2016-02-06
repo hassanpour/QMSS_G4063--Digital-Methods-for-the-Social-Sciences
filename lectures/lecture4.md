@@ -16,7 +16,7 @@ cd ~/.../project-folder
 python -m SimpleHTTPServer 8888 &
 ``
 
-Now go to <http://localhost:8888/> to see the output from index.html. I recommend using Chrome. Once you open the page, go to View, Developer, JavaScript Console and you familiarize yourself with the environment Chapters 3 and 5 in SM are going to be helpful.
+Now go to <http://localhost:8888/> to see the output from index.html. I recommend using Chrome. Once you open the page, go to View, Developer, JavaScript Console and you familiarize yourself with the environment Chapters 3 and 5 in SM are going to be helpful. For editing your index.htm file you can use either [_Brackets_](http://brackets.io/) or [_Atom_](https://atom.io/). Both work fine. 
 
 Writing a D3 visualization is bascially producing an .html file that runs a JS code in the body--it does not use any ready image files (such as .jpg etc) and communicates with data files such as JSON and CSV directly. We will use some JSON and CSV files later to see how that works. First, let's try and run a simple code:
 
@@ -63,20 +63,32 @@ Now let's produce the first bar chart using D3. Files for SM tutorial book are a
 ```css
 <style type="text/css">
 		
-			div.bar {
-				display: inline-block;
-				width: 20px;
-				height: 75px;	/* Gets overriden by D3-assigned height below */
-				margin-right: 2px;
-				background-color: teal;
+		div.bar {
+			display: inline-block;
+			width: 20px;
+			height: 75px;	/* Gets overriden by D3-assigned height below */
+			margin-right: 2px;
+			background-color: teal;
 			}
 		
-		</style>
+	</style>
 ```
-and then 
+and then moves on to use the style with the data fed to the D3 Java Script:
 
+```javascript
+d3.select("body").selectAll("div")
+				.data(dataset)
+				.enter()
+				.append("div")
+				.attr("class", "bar")
+				.style("height", function(d) {
+					var barHeight = d * 5;
+					return barHeight + "px";
+				});
 
+```
 
+For producing some colorful SVG circles--and to appreciate the distinct features of scalable graphics--you can [run the code at this link](https://github.com/hassanpour/d3-book/blob/master/chapter_06/11_drawing_svgs_color.html). All you have to do is to copy and paste the .html content in your index.html file, and refresh [your local host link](http://localhost:8888/). 
 
 
 ----
