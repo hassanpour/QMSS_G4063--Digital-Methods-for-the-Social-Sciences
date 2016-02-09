@@ -129,7 +129,7 @@ There is a wealth of great examples [on Michael Bostock's GitHub](https://github
 We will discuss and execute some of sample visualizaitons using available data from the Primaries tweet dataset. 
 
 
-
+An example of nested JSON in D3 [at this link](https://bl.ocks.org/stepheneb/1183998)
 ----
 
 NB: Take a look at the required reading: [the D3 tutorial at this link](http://alignedleft.com/tutorials), and SM's book.
