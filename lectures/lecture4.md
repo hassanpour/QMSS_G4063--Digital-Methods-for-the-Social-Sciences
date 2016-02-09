@@ -127,9 +127,8 @@ SM Chapter 10 includes a number of good examples to start with. Check the chapte
 There is a wealth of great examples [on Michael Bostock's GitHub](https://github.com/mbostock/d3/wiki/Gallery), which you can embed in your visual analysis of the tweet dataset--perhaps even for your first assignment. Start working with these examples to familiarize yourself with data processing and visualization possibilities in D3. The index.html file in ```project-folder``` contains a number of those. 
 
 We will discuss and execute some of sample visualizaitons using available data from the Primaries tweet dataset. 
-
-
 An example of nested JSON in D3 [at this link](https://bl.ocks.org/stepheneb/1183998)
+
 ----
 
 NB: Take a look at the required reading: [the D3 tutorial at this link](http://alignedleft.com/tutorials), and SM's book.
