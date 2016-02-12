@@ -6,6 +6,10 @@ What we learned in this lecture:
 2. How to filter the Twitter Streaming API for collecting tweets based on a certain keywords
 3. How to use this simple scheme of frequency analysis for comparing the volume of conversation over a specific candidate
 
+
+First generate an ''oauth'' file for communicating with your Twitter app. After generating your app at [apps.twitter.com]
+
+
 ### Sample Code using StreamR
  
 ```{r}
