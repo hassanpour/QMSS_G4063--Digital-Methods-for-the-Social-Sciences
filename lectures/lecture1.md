@@ -22,7 +22,6 @@ save(my_oauth, file = "my_oauth.Rdata")
 ```
 
 
-
 ### Sample Code using StreamR
  
 ```{r}
