@@ -7,7 +7,7 @@ What we learned in this lecture:
 3. How to use this simple scheme of frequency analysis for comparing the volume of conversation over a specific candidate
 
 
-First generate an ''oauth'' file for communicating with your Twitter app. After generating your app at [apps.twitter.com]
+First generate an ''oauth'' file for communicating with your Twitter app. After generating your app at [https://apps.twitter.com/]
 
 
 ### Sample Code using StreamR
