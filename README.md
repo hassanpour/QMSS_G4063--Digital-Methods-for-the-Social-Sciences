@@ -22,12 +22,11 @@ This course is designed to equip QMSS students with tools from datascience for c
 * harvesting data from web platforms such as Twitter API,
 * running analysis with social scientific import on the data they collected (R  and  Python), and
 * using effective visualization methodology for 
-
-⋅⋅1. Interactive web-based design (RShiny and D3) 
-⋅⋅2. Social network analysis (D3 and RShiny) 
-⋅⋅3. GIS (D3 and RShiny) 
-⋅⋅4. Text analytics and visualization (in R) 
-⋅⋅5. Statistical analysis and visualization (R's  ggplot2, RShiny).
+* 1. Interactive web-based design (RShiny and D3) 
+2. Social network analysis (D3 and RShiny) 
+3. GIS (D3 and RShiny) 
+4. Text analytics and visualization (in R) 
+5. Statistical analysis and visualization (R's  ggplot2, RShiny).
 
 Familiarity with relevant software tools would be a plus, but is not necessary as we will have tutorials on the essential software through the semester.
 
