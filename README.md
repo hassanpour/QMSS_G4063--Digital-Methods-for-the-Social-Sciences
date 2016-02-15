@@ -44,16 +44,22 @@ Familiarity with relevant software tools would be a plus, but is not necessary a
 
 ###[Lecture 4](/lectures/lecture4.md)
 
+
 ## Part 2:  Social Network Analysis and Visualization
 
+###[Lecture 5](/lectures/lecture5.md)
+
+###[Lecture 6](/lectures/lecture6.md)
 
 
-## Part 3:  Text Analysis and Visualization
+## Part 3:  GIS Analysis and Visualization
+
+###[Lecture 7](/lectures/lecture7.md)
+
+###[Lecture 8](/lectures/lecture8.md)
 
 
-
-## Part 4:  GIS Analysis and Visualization
-
+## Part 4:  Text Analysis and Visualization
 
 
 ## Part 5:  Statistical Visualization, Machine Learning & Prediction
