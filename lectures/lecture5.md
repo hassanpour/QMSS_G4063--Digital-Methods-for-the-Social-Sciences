@@ -31,7 +31,7 @@ We are going to use D3 and Shiny examples, go to [_project folder_](https://gith
 Go to [this link](https://github.com/pablobarbera/pytwools/blob/master/export-network-data.py) to access a piece of ready Python code for parsing your tweets.json, and mining the mention relations between users. After running the relevant code, 
 
 ```
-python export-network-data.py -f tweets.json -et mentions -oe edges.csv -on nodes.csv
+python [this link](https://github.com/pablobarbera/pytwools/blob/master/export-network-data.py) -f [tweets.json](https://raw.githubusercontent.com/hassanpour/QMSS_G4063/master/lectures/project-folder/tweets.json) -et mentions -oe edges.csv -on nodes.csv
 ```
 
 
