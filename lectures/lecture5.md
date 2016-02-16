@@ -15,3 +15,14 @@ A good way of processing and visualization of relational data is to store and de
 #### Code, Our First Example
 
 We are going to use D3 and Shiny examples, go to [this folder](https://github.com/hassanpour/QMSS_G4063/tree/master/project_folder_SNA) on course's GitHub, and download it on your computer. 
+
+#### Tweet Networks
+
+#### Trying Some Examples
+
+
+-----
+Links
+-----
+* [An R library for using force-directed graphs from D3](http://christophergandrud.github.io/networkD3/)
+* 
