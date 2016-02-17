@@ -30,10 +30,6 @@ We are going to use D3 and Shiny examples, go to [_project folder_](https://gith
 
 Go to [this link](https://github.com/pablobarbera/pytwools/blob/master/export-network-data.py) to access a piece of ready Python code for parsing your tweets.json, and mining the mention relations between users. After running the relevant code, 
 
-```
-python export-network-data.py -f tweets.json -et mentions -oe edges.csv -on nodes.csv
-```
-
 
 you will have the CSV file needed for feeding to [a D3 sample code here](http://bl.ocks.org/mbostock/2949937) for generating a [force-directed graph](http://bl.ocks.org/mbostock/4062045). 
 
