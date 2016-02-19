@@ -5,8 +5,13 @@
 
 #### Intro
 
-1. Sample Visualizations, summary of the last session
+1. Sample Visualizations from the first assignment, 
+2. Summary of the last session
 2. Review of network parameters
+ ..1. Diameter of a given graph (G)
+ ..2 Average degree
+ ..3. Averagre clustering coefficient
+
 
 #### D3 Network Visualziations, cont.
 1. D3 programming exercise for adding labels to the network diagram (binding, reading data)
