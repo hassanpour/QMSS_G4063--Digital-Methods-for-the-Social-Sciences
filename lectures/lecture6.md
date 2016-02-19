@@ -9,7 +9,7 @@
 2. Review of network parameters
 
 #### D3 Network Visualziations, cont.
-1. D3 programming exervise for adding labels to the network diagram (binding, reading data)
+1. D3 programming exercise for adding labels to the network diagram (binding, reading data)
 1.b. different types of networks -- we will go through all  (different visualizations)
 
 
