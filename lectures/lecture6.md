@@ -8,11 +8,11 @@
 1. Sample Visualizations from the first assignment, 
 2. Summary of the last session
 2. Review of network parameters
- ..* Diameter of a given graph (G)
- ..* Average degree
- ..* Averagre clustering coefficient
- ..* # of connected components
- ..* Average path length 
+ * Diameter of a given graph (G)
+ * Average degree
+ * Averagre clustering coefficient
+ * # of connected components
+ * Average path length 
 
 
 #### D3 Network Visualziations, cont.
