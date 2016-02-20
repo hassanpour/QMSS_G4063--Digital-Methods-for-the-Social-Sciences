@@ -25,7 +25,7 @@ var svg = d3.select("body").append("svg")
 var force = d3.layout.force()
     .size([width, height]);
 
-d3.csv("edges_trump.csv", function(error, links) {
+d3.csv("edges_all.csv", function(error, links) {
   if (error) throw error;
 
   var nodesByName = {};
