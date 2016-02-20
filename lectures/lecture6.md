@@ -82,6 +82,6 @@ You will use the same concepts in writing up your second assignment.
 
 -----
 
-Twitter mention nets: 
+A sample mention network with D3: 
 ![alt text](https://github.com/hassanpour/QMSS_G4063/blob/master/images/net1_Page_2.png "Mention networks")
 
