@@ -80,3 +80,8 @@ You will use the same concepts in writing up your second assignment.
 * Running an app on [Rshiny.io](https://www.shinyapps.io/), quick setup for uploading your next RShiny app
 * [Adding features to D3 force layout, a good list](http://www.coppelia.io/2014/07/an-a-to-z-of-extra-features-for-the-d3-force-layout/)
 
+-----
+
+Twitter mention nets: 
+![alt text](https://github.com/hassanpour/QMSS_G4063/blob/master/images/net1_Page_2.png "Mention networks")
+
