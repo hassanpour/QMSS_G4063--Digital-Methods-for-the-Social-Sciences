@@ -38,11 +38,17 @@ See the `index.html` file [at the following link](https://github.com/hassanpour/
 Note the following piece of code in `index.html`
 
 ```html
+// add the text
 node.append("text")
     .attr("x", 12)
     .attr("dy", ".35em")
     .text(function(d) { return d.name; });
 ```
+
+See how D3s JS _appends_s components to _node_. Compare the function `tick()` in the curvy net visualization to the original function in `index.htm` (also included in the file lindked above).  
+
+
+----
 
 [This link](http://christophergandrud.github.io/networkD3/) points to a laundry list of available network visualizations in D3, and is an interface between R and D3 you can use, but note the special format of network data JSONs and CSVs in D3, it is not directly compatible with the simple (node, link) structure I discussed in the last lecture. 
 
