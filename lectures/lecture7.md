@@ -22,3 +22,5 @@ GIS metrics for analysis
 2. Importing maps
 3. Geolocated social data
 
+----
+
