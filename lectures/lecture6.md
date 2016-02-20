@@ -25,6 +25,27 @@ First, apply the [following code](https://github.com/hassanpour/QMSS_G4063/blob/
 
 What are your impressions about these networks? How are they different? Do you see any meaningful differences between network parameters, such as the size of _main component_, or the level of connectivity, and the highest degree nodes in the net?
 
+##### Adding Labels
+
+See the `index.html` file [at the following link](https://github.com/hassanpour/QMSS_G4063/blob/master/project_folder_SNA/index_w_labels.html). I have made this file by 
+
+1. Collecting the tweet.JSON file from StreamingAPI 
+2. Parsing the JSON file using a Python parser to produce `edges.csv` and `nodes.csv`
+3. `Vlookup` in Excel to replace user id s with "labels (twitter handles)"
+4. Finally, feeding the `force_trump.csv` to the D3 code for generating a net visualization with curvy edged 
+
+
+Note the following piece of code in `index.html`
+
+``` html
+// add the text 
+node.append("text")
+    .attr("x", 12)
+    .attr("dy", ".35em")
+    .text(function(d) { return d.name; });
+    
+```
+
 [This link](http://christophergandrud.github.io/networkD3/) points to a laundry list of available network visualizations in D3, and is an interface between R and D3 you can use, but note the special format of network data JSONs and CSVs in D3, it is not directly compatible with the simple (node, link) structure I discussed in the last lecture. 
 
 
