@@ -45,30 +45,38 @@ node.append("text")
     .text(function(d) { return d.name; });
 ```
 
-See how D3s JS _appends_s components to _node_. Compare the function `tick()` in the curvy net visualization to the original function in `index.htm` (also included in the file lindked above).  
+See how D3s JS _appends_s components to _node_. Compare the function `tick()` in the curvy net visualization to the original function in `index.htm` (also included in the file linked above).  
+
 
 
 ----
 
 [This link](http://christophergandrud.github.io/networkD3/) points to a laundry list of available network visualizations in D3, and is an interface between R and D3 you can use, but note the special format of network data JSONs and CSVs in D3, it is not directly compatible with the simple (node, link) structure I discussed in the last lecture. 
 
-
-#### Calcualing Net Parameters, and Visualization with Gephi
-
-1. Gephi introduction 
-2. Net parameter calculations
+-----
 
 
-##### Useful Links
+#### A short and quick intro to Gephi: calcualing network parameters, visualization:
 
-* Running an app on [Rshiny.io](https://www.shinyapps.io/), quick setup for uploading your next RShiny app
-* [Adding features to D3 force layout, a good list](http://www.coppelia.io/2014/07/an-a-to-z-of-extra-features-for-the-d3-force-layout/)
+In the second section of class, we go through some network parameter calculations in Gephi. These variables are going to be useful in your assessment of candidates' conversation networks. In particular, we are interested in understanding the implications of 
 
----
+1. Small network _diameters_ vis a vis large _diameters_
+2. The size of _clustering coefficients_ and interactivity of a network
+3. Average degree and path length and connectivity of the pertient network
+
+You will use the same concepts in writing up your second assignment. 
+
+
+-----
 
 #### Assignment 2: 
 
 * Network data visualization with Rshiny and D3
 
+-----
 
+##### Useful Links
+
+* Running an app on [Rshiny.io](https://www.shinyapps.io/), quick setup for uploading your next RShiny app
+* [Adding features to D3 force layout, a good list](http://www.coppelia.io/2014/07/an-a-to-z-of-extra-features-for-the-d3-force-layout/)
 
