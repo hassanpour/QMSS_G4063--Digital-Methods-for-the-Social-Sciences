@@ -16,6 +16,11 @@
 
 
 #### D3 Network Visualziations, cont.
+
+D3 has a _force directed_ layout for organizing network visualization which we experimented with in the last session. Download the contents of [this folder](https://www.dropbox.com/sh/r9tdjbzfegfmzh3/AABQbUJvVpNokwRim-Mnk5Fba?dl=0). We will do some experimentations with the 
+
+
+
 1. D3 programming exercise for adding labels to the network diagram (binding, reading data)
 1.b. different types of networks -- we will go through all  (different visualizations)
 
