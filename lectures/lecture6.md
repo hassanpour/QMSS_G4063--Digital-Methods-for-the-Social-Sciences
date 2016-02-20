@@ -38,7 +38,6 @@ See the `index.html` file [at the following link](https://github.com/hassanpour/
 Note the following piece of code in `index.html`
 
 ```html
-// add the text 
 node.append("text")
     .attr("x", 12)
     .attr("dy", ".35em")
