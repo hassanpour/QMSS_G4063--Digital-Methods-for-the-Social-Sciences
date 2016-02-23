@@ -45,7 +45,7 @@ node.append("text")
     .text(function(d) { return d.name; });
 ```
 
-See how D3s JS _appends_s components to _node_. Compare the function `tick()` in the curvy net visualization to the original function in `index.htm` (also included in the file linked above).  
+See how D3s JS *appends*s components to *node*. Compare the function `tick()` in the curvy net visualization to the original function in `index.htm` (also included in the file linked above).  
 
 
 
