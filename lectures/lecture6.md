@@ -21,7 +21,7 @@ D3 has a _force directed_ layout for organizing network visualization which we e
 
 We will do some experimentations with these networks in .CSV files. 
 
-First, apply the [following code](https://github.com/hassanpour/QMSS_G4063/blob/master/project_folder_SNA/index_all.html)(in your index.html) to `edges_all.csv`
+First, apply the [following code](https://github.com/hassanpour/QMSS_G4063/blob/master/project_folder_SNA/index_all.html) (in your index.html) to `edges_all.csv`
 
 What are your impressions about these networks? How are they different? Do you see any meaningful differences between network parameters, such as the size of _main component_, or the level of connectivity, and the highest degree nodes in the net?
 
@@ -45,7 +45,7 @@ node.append("text")
     .text(function(d) { return d.name; });
 ```
 
-See how D3s JS *appends*s components to *node*. Compare the function `tick()` in the curvy net visualization to the original function in `index.htm` (also included in the file linked above).  
+See how D3s JS *appends* components to *node*. Compare the function `tick()` in the curvy net visualization to the original function in `index.htm` (also included in the file linked above).  
 
 
 
