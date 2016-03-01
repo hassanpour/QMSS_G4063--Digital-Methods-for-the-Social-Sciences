@@ -6,8 +6,8 @@
 #### Main Concepts
 
 1. GIS Data Types: 
- ..1.Vector 
- ..2.Raster 
+  1.Vector 
+  2.Raster 
 2. 
 3. 
 
