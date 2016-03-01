@@ -33,4 +33,9 @@ GIS metrics for analysis
 3. Geolocated social data
 
 ----
+Also see:
+
+1. Bivand, R. S., Pebesma, E. J., and Gómez-Rubio, V. (2013). _Applied spatial data analysis with R_, Springer
+2. [Creating maps in R](https://github.com/Robinlovelace/Creating-maps-in-R)
+3. 
 
