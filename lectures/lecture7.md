@@ -19,6 +19,12 @@
 2. Importing maps
 3. Geolocated social data
 
+#### A GIS Visualization Exercise with R
+Maps and data points
+
+#### Another GIS Visualization Exercise with D3
+Mapping U.S. states
+
 ----
 #### GIS Parameters
 
@@ -37,5 +43,5 @@ Also see:
 
 1. Bivand, R. S., Pebesma, E. J., and Gómez-Rubio, V. (2013). _Applied spatial data analysis with R_, Springer
 2. [Creating maps in R](https://github.com/Robinlovelace/Creating-maps-in-R)
-3. 
+
 
