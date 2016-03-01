@@ -32,7 +32,31 @@ The concept of ``joining`` spatial data: [tutorial](https://dl.dropboxuserconten
 3. Geolocated social data
 
 #### A GIS Visualization Exercise with R
-Maps and data points
+Geolocated tweets: where are the tweets coming from?
+
+```r
+
+library(ggplot2)
+library(maps)
+
+US_states <- map_data("state")
+
+geo_tweets = parseTweets("tweets_geo_all.json")
+```
+
+First a glimpse of the base map itself:
+
+```r
+ggplot()+ geom_polygon( data=US_states, aes(x=long, y=lat, group = group),colour="white", fill="grey10" )
+```
+
+Now locating our tweets on the map: (see more [here](http://docs.ggplot2.org/current/coord_map.html))
+
+```r
+ggplot(US_states) + geom_map(aes(map_id = region), map = US_states, fill = "grey90", color = "grey50", size = 0.25) + expand_limits(x = US_states$long, y = US_states$lat) + scale_x_continuous("Longitude", limits=c(38,58)) + scale_y_continuous("Latitude", limits=c(11,35)) + theme_minimal() + geom_point(data = geo_tweets, aes(x = lon, y = lat), size = 1, alpha = 1/5, color = "blue")
+```
+
+----
 
 #### Another GIS Visualization Exercise with D3
 Mapping U.S. states
