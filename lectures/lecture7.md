@@ -11,7 +11,7 @@
   2. Raster: GIS data based on pixels (or cells), raster data constitues the attributes of each pertinent cell 
 
 2. Shape Files: vector files for storing location and shape of a geographic feature 
-3. 
+
 
 #### GIS with RShiny, Intro
 
