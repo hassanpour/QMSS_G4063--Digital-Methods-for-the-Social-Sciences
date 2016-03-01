@@ -5,10 +5,12 @@
 ----
 #### Main Concepts
 
-1. GIS Data Types: 
-  1.Vector 
-  2.Raster 
-2. 
+1. GIS Data Types (hint: remember the network data analogy--edges and nodes) 
+
+  1. Vector: GIS data based on points, lines and polygons, used primarily for delineating map boundaries
+  2. Raster: GIS data based on pixels (or cells), raster data constitues the attributes of each pertinent cell 
+
+2. Shape Files: vector files for storing location and shape of a geographic feature 
 3. 
 
 #### GIS with RShiny, Intro
