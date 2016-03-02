@@ -35,6 +35,10 @@ The concept of ``joining`` spatial data: [tutorial](https://dl.dropboxuserconten
 Geolocated tweets: where are the tweets coming from?
 
 ```r
+filterStream("tweets_geo_clinton.json", track = c("Hillary Clinton","Hillaryclinton"),locations=c(-127.49,24.21,-65.96,50.35), timeout = 1800,oauth = my_oauth)
+```
+
+```r
 
 library(ggplot2)
 library(maps)
