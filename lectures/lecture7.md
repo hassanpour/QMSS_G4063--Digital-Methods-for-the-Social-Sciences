@@ -38,6 +38,9 @@ Geolocated tweets: where are the tweets coming from?
 filterStream("tweets_geo_clinton.json", track = c("Hillary Clinton","Hillaryclinton"),locations=c(-127.49,24.21,-65.96,50.35), timeout = 1800,oauth = my_oauth)
 ```
 
+JSON at [this link](https://www.dropbox.com/sh/zyy9tsvibrl4d63/AADFaPaFYxOBpbw0OOF1W2csa?dl=0)
+
+
 ```r
 
 library(ggplot2)
