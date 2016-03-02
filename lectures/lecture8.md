@@ -4,7 +4,7 @@
 
 Continuing with D3, Shiny and Primaries Twitter data
 
-#### Contd. Visualizing Geolocated Tweets 
+#### Cont'd Visualizing Geolocated Tweets 
 
 ---
 ##### Assigment 3
