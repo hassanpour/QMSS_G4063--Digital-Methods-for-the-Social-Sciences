@@ -18,14 +18,7 @@ Topics of interest:
 * Spatial joins
 
 
-
-
-
-
-
-
-
-#### Cont'd Visualizing Geolocated Tweets 
+### Spatial joins with Geolocated Tweets and Counts per State
 
 ---
 ##### Assigment 3
