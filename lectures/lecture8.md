@@ -15,14 +15,49 @@ Topics of interest:
 * The structure of spatial data in R
 * Plotting some basic maps
 * Attribute joins
-* Spatial joins
-** many to one
-
-
+* Spatial joins (many to one, one to many, one to one)
 
 
 ### Spatial joins with Geolocated Tweets and Counts per State
 
+```r
+library(sp)
+library(maps)
+library(rgdal)
+library(rgeos)
+library(GISTools)
+library(maptools)
+
+geo_tweets = parseTweets("tweets_geo_all.json")
+
+tw_coordinates_B<- cbind(geo_tweets$lon,geo_tweets$lat)
+tw_coordinates_B2 <- na.omit(tw_coordinates_B)
+tw_points_B <- SpatialPoints(tw_coordinates_B2)
+plot(tw_points_B)
+
+#proj4string(tw_points_B) <- crs.geo
+#crs.geo <- CRS("+init=EPSG:32633")
+
+plot(tw_points_B)
+class(tw_points_B)
+
+all_states <- map_data("state")
+plot(all_states)
+
+library(rgeos)
+
+library(GISTools)
+
+require(maps)
+usa <- map("state")
+
+require(sp)
+require(maptools)
+IDs <- sapply(strsplit(usa$names, ":"), function(x) x[1])
+usa <- map2SpatialPolygons(usa, IDs=IDs, proj4string=CRS("+proj=longlat +datum=WGS84"))
+
+poly.counts(tw_points_B, usa)
+```
 
 
 
