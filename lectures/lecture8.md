@@ -16,9 +16,15 @@ Topics of interest:
 * Plotting some basic maps
 * Attribute joins
 * Spatial joins
+** many to one
+
+
 
 
 ### Spatial joins with Geolocated Tweets and Counts per State
+
+
+
 
 ---
 ##### Assigment 3
