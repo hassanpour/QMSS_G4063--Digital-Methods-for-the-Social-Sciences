@@ -6,6 +6,21 @@ Continuing with GIS in R, and Primaries Twitter data
 
 Last time we learned how to geolocate tweets on the U.S. map. This week I go through basic concepts of geoprocessing in "R" specifically, and at the end we conduct an exercise, counting the number of tweets (from each candidate) produced in each state. We will talk about the political import of such geo-frequencies.
 
+Before we start working with the Twitter data we have, first some basic definitions. Go to [the following link](https://cran.r-project.org/doc/contrib/intro-spatial-rl.pdf). 
+
+Install ```"ggmap", "rgdal", "rgeos", "maptools", "dplyr", "tidyr", "tmap", "maps"```.
+
+Topics of interest: 
+
+* The structure of spatial data in R
+* Plotting some basic maps
+* Attribute joins
+* Spatial joins
+
+
+
+
+
 
 
 
