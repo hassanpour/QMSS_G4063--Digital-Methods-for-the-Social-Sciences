@@ -76,3 +76,8 @@ poly.counts(tw_points_B, usa)
 
 ---
 ##### Assignment 3 and Final Project
+
+##### Sample Reports
+
+[Assignment 1](https://www.dropbox.com/sh/e0zna8acavew2j4/AADPkqXnGgqSyXxeQNES1ALma?dl=0)
+[Assignment 2](https://www.dropbox.com/sh/ztw01pa6zxtvfa4/AAAgDniTgQQ7HRZwrL5WE6Rqa?dl=0)
