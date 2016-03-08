@@ -62,4 +62,4 @@ poly.counts(tw_points_B, usa)
 
 
 ---
-##### Assigment 3
+##### Assignment 3 and Final Project
