@@ -57,7 +57,7 @@ library(rgeos)
 library(GISTools)
 
 require(maps)
-usa <- map("state")
+usa <- map("state", fill = TRUE)
 
 require(sp)
 require(maptools)
