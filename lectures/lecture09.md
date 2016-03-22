@@ -13,8 +13,8 @@ Let's start with a simple word cloud
 
 library(streamR)
 
-tweets_HC <- parseTweets(tweets_LP_HC.json)
-tweets_DT <- parseTweets(tweets_LP_DT.json)
+tweets_HC <- parseTweets("tweets_LP_HC.json")
+tweets_DT <- parseTweets("tweets_LP_DT.json")
 
 library(tm)
 library(wordcloud)
