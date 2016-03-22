@@ -30,4 +30,4 @@ TweetCorpus <- tm_map(TweetCorpus, content_transformer(tolower),lazy=TRUE)
 TweetCorpus <- tm_map(TweetCorpus, PlainTextDocument)
 wordcloud(TweetCorpus, max.words = 100, random.order = FALSE)
 
-```r
+```
