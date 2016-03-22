@@ -18,9 +18,11 @@ tweets_DT <- parseTweets(tweets_LP_DT.json)
 
 library(tm)
 library(wordcloud)
+library(Rstem)
+library(stringr)
 
-tweets_BS.df$text <- sapply(tweets_HC.df$text, function(row) iconv(row, "latin1", "ASCII", sub=""))
-TweetCorpus <- paste(unlist(tweets_HC.df$text), collapse =" ") #to get all of the tweets together
+tweets_HC$text <- sapply(tweets_HC$text, function(row) iconv(row, "latin1", "ASCII", sub=""))
+TweetCorpus <- paste(unlist(tweets_HC$text), collapse =" ") #to get all of the tweets together
 TweetCorpus <- Corpus(VectorSource(TweetCorpus))
 TweetCorpus <- tm_map(TweetCorpus, PlainTextDocument)
 TweetCorpus <- tm_map(TweetCorpus, removePunctuation)
@@ -31,3 +33,5 @@ TweetCorpus <- tm_map(TweetCorpus, PlainTextDocument)
 wordcloud(TweetCorpus, max.words = 100, random.order = FALSE)
 
 ```
+
+
