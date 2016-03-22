@@ -27,11 +27,33 @@ TweetCorpus <- Corpus(VectorSource(TweetCorpus))
 TweetCorpus <- tm_map(TweetCorpus, PlainTextDocument)
 TweetCorpus <- tm_map(TweetCorpus, removePunctuation)
 TweetCorpus <- tm_map(TweetCorpus, removeWords, stopwords('english'))
-TweetCorpus <- tm_map(TweetCorpus, stemDocument)
+%TweetCorpus <- tm_map(TweetCorpus, stemDocument) % No stemming for now!
 TweetCorpus <- tm_map(TweetCorpus, content_transformer(tolower),lazy=TRUE)
 TweetCorpus <- tm_map(TweetCorpus, PlainTextDocument)
 wordcloud(TweetCorpus, max.words = 100, random.order = FALSE)
 
 ```
 
+Then let's try to check the level of positivity and negativity of each candiate's tweet corpus:
+
+[Link to Lexicon](https://www.dropbox.com/s/fjc9yd0h1jur51a/lexicon.csv?dl=0) (Courtesy of Neal Caren and Pablo Barbera)
+
+We use the a [simple function](https://github.com/pablobarbera/social-media-workshop/blob/master/02-twitter-data-analysis.r) for finding the frequency of positive and negative words in each of the corpuses:
+
+importing from lexicon:
+
+```r
+lexicon <- read.csv("lexicon.csv", stringsAsFactors=F)
+pos.words <- lexicon$word[lexicon$polarity=="positive"]
+neg.words <- lexicon$word[lexicon$polarity=="negative"]
+```
+
+Then counting the positive/negative words
+
+```r
+    positive <- sum(TweetCorpus %in% pos.words)
+    negative <- sum(TweetCorpus %in% neg.words)
+
+}
+```
 
