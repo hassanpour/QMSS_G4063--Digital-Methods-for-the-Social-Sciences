@@ -55,3 +55,4 @@ positive <- sum(TweetCorpus %in% pos.words)
 negative <- sum(TweetCorpus %in% neg.words)
 ```
 
+Now let's complicate the topic, and simplify our lexicon, starting from [this visualizaiton](http://www.nytimes.com/interactive/2016/03/11/us/elections/what-parties-debate-or-ignore.html?action=click&pgtype=Homepage&clickSource=image&module=b-lede-package-region&region=top-news&WT.nav=top-news&hp&_r=0).
