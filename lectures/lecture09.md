@@ -61,4 +61,6 @@ Now let's complicate the topic, and simplify our lexicon, starting from [this vi
 
 Wordclouds, frequency charts in time and topics
 
-[Link1](http://www.nytimes.com/interactive/2012/09/04/us/politics/democratic-convention-words.html), [Link2](), [Link1](), [Link2](), 
+[Link1](http://www.nytimes.com/interactive/2012/09/04/us/politics/democratic-convention-words.html), [Link2](http://bl.ocks.org/mbostock/4063269) 
+
+[Link3](), [Link4]()
