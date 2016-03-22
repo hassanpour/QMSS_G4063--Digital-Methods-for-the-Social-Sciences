@@ -53,7 +53,5 @@ Then counting the positive/negative words
 ```r
     positive <- sum(TweetCorpus %in% pos.words)
     negative <- sum(TweetCorpus %in% neg.words)
-
-}
 ```
 
