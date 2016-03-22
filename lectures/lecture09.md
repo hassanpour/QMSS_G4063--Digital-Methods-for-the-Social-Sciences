@@ -23,7 +23,7 @@ library(stringr)
 
 tweets_HC$text <- sapply(tweets_HC$text, function(row) iconv(row, "latin1", "ASCII", sub=""))
 TweetCorpus <- paste(unlist(tweets_HC$text), collapse =" ") #to get all of the tweets together
-TweetCorpus <- Corpus(VectorSource(TweetCorpus))
+%TweetCorpus <- Corpus(VectorSource(TweetCorpus))
 TweetCorpus <- tm_map(TweetCorpus, PlainTextDocument)
 TweetCorpus <- tm_map(TweetCorpus, removePunctuation)
 TweetCorpus <- tm_map(TweetCorpus, removeWords, stopwords('english'))
