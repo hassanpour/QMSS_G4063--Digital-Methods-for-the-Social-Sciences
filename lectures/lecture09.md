@@ -51,7 +51,7 @@ neg.words <- lexicon$word[lexicon$polarity=="negative"]
 Then counting the positive/negative words
 
 ```r
-    positive <- sum(TweetCorpus %in% pos.words)
-    negative <- sum(TweetCorpus %in% neg.words)
+positive <- sum(TweetCorpus %in% pos.words)
+negative <- sum(TweetCorpus %in% neg.words)
 ```
 
