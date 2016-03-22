@@ -36,37 +36,46 @@ Familiarity with relevant software tools would be a plus, but is not necessary a
 
 ### Week  1,  January  19:  Course  Introduction,  Visualization  types  -  TwitterAPI set up
 
-###[Lecture 1](/lectures/lecture1.md)
+###[Lecture 1](/lectures/lecture01.md)
 
 ## Part 1:  Interactive Graphs with Twitter Data (Shiny, D3)
 
 ### Week 2, 1.1, January 26:  Shiny Apps, Word frequency plots, Time-series visualization
 
-###[Lecture 2](/lectures/lecture2.md)
+###[Lecture 2](/lectures/lecture02.md)
 
 ### Week 3 & 4, 1.2 & 1.3, February 2 & 9: Interactive Visualization with Shiny & D3 using Twitter Data
 
-###[Lecture 3](/lectures/lecture3.md)
+###[Lecture 3](/lectures/lecture03.md)
 
-###[Lecture 4](/lectures/lecture4.md)
+###[Lecture 4](/lectures/lecture04.md)
 
 
 ## Part 2:  Social Network Analysis and Visualization
 
-###[Lecture 5](/lectures/lecture5.md)
+###[Lecture 5](/lectures/lecture05.md)
 
-###[Lecture 6](/lectures/lecture6.md)
+###[Lecture 6](/lectures/lecture06.md)
 
 
 ## Part 3:  GIS Analysis and Visualization
 
-###[Lecture 7](/lectures/lecture7.md)
+###[Lecture 7](/lectures/lecture07.md)
 
-###[Lecture 8](/lectures/lecture8.md)
+###[Lecture 8](/lectures/lecture08.md)
 
 
 ## Part 4:  Text Analysis and Visualization
 
+###[Lecture 9](/lectures/lecture09.md)
+
+###[Lecture 10](/lectures/lecture10.md)
+
 
 ## Part 5:  Statistical Visualization, Machine Learning & Prediction
+
+###[Lecture 11](/lectures/lecture11.md)
+
+###[Lecture 12](/lectures/lecture12.md)
+
 

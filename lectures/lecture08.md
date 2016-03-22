@@ -57,7 +57,7 @@ library(rgeos)
 library(GISTools)
 
 require(maps)
-usa <- map("state")
+usa <- map("state", fill = TRUE)
 
 require(sp)
 require(maptools)
@@ -65,7 +65,7 @@ IDs <- sapply(strsplit(usa$names, ":"), function(x) x[1])
 usa <- map2SpatialPolygons(usa, IDs=IDs, proj4string=CRS("+proj=longlat +datum=WGS84"))
 ```
 
-Finally counting tweets per state:
+Finally counting tweets per state: (from ```GISTools```)
 
 ```r
 poly.counts(tw_points_B, usa)
