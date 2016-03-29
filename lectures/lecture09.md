@@ -13,8 +13,8 @@ Let's start with a simple word cloud
 
 library(streamR)
 
-tweets_HC <- parseTweets(tweets_LP_HC.json)
-tweets_DT <- parseTweets(tweets_LP_DT.json)
+tweets_HC <- parseTweets("tweets_LP_HC.json")
+tweets_DT <- parseTweets("tweets_LP_DT.json")
 
 library(tm)
 library(wordcloud)
@@ -23,7 +23,7 @@ library(stringr)
 
 tweets_HC$text <- sapply(tweets_HC$text, function(row) iconv(row, "latin1", "ASCII", sub=""))
 TweetCorpus <- paste(unlist(tweets_HC$text), collapse =" ") #to get all of the tweets together
-TweetCorpus <- Corpus(VectorSource(TweetCorpus))
+%TweetCorpus <- Corpus(VectorSource(TweetCorpus))
 TweetCorpus <- tm_map(TweetCorpus, PlainTextDocument)
 TweetCorpus <- tm_map(TweetCorpus, removePunctuation)
 TweetCorpus <- tm_map(TweetCorpus, removeWords, stopwords('english'))
@@ -60,3 +60,7 @@ Now let's complicate the topic, and simplify our lexicon, starting from [this vi
 #### D3
 
 Wordclouds, frequency charts in time and topics
+
+[Link1](http://www.nytimes.com/interactive/2012/09/04/us/politics/democratic-convention-words.html), [Link2](http://bl.ocks.org/mbostock/4063269) 
+
+[Link3](http://hiphop.laserdeathstehr.com), [Link4](http://stanford.edu/~garylee/bibly/)
