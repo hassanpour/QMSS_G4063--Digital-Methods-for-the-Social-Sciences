@@ -13,7 +13,7 @@ Presentations on April 19 and April 26
 
 This week, some theory:
 
-Topic Detection and Learning
+##### Topic Detection and Learning
 
 * Supervised Learning
 * Regression Methods
