@@ -4,7 +4,7 @@
 
 ###### Assignment 4 (due april 7)
 
-Presentations on April 19 and April 26
+###### Presentations on April 19 and April 26
 
 * Topic modeling definitions
 * A list of important algorithms
@@ -25,6 +25,6 @@ This week, some theory:
 * Maximum Entropy Classifiers
 
 
-See also [this tutorial](https://web.stanford.edu/class/cs124/lec/naivebayes.pdf) on Naive Bayes Learning with text data 
+See also [this tutorial](https://web.stanford.edu/class/cs124/lec/naivebayes.pdf) on Naive Bayes Learning with text data.
 
 Check the [visualization samples in the previous lecture](https://github.com/hassanpour/QMSS_G4063/blob/master/lectures/lecture09.md) as examples for your assignment 4.
