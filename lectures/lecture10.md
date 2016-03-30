@@ -23,3 +23,8 @@ This week, some theory:
 * Support Vector Machines (SVM)
 * Stochastic Gradient Descent
 * Maximum Entropy Classifiers
+
+
+See also [this tutorial](https://web.stanford.edu/class/cs124/lec/naivebayes.pdf) on Naive Bayes Learning with text data 
+
+Check the [visualization samples in the previous lecture](https://github.com/hassanpour/QMSS_G4063/blob/master/lectures/lecture09.md) as examples for your assignment 4.
