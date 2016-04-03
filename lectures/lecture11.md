@@ -3,6 +3,6 @@
 ### Statistical Analysis & Visualization, Part I
 
 
-#### Here and Here
+#### 
 
-#### Here and Here
+#### 
