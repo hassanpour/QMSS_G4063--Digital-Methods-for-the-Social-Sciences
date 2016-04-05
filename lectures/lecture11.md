@@ -8,4 +8,4 @@ Today we are going to talk about the basics of prediction based on the twitter d
 
 #### `Coefplot` 
 
-#### Prediction methods 
+#### Basic Prediction Methods & Procedures 
