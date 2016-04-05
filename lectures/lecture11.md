@@ -19,4 +19,12 @@ p
 
 #### `Coefplot` 
 
+```r
+library(coefplot)
+
+model1<- lm(y ~ x, data=df)
+coefplot(model1)
+
+```
+
 #### Basic Prediction Methods & Procedures 
