@@ -15,6 +15,8 @@ p <- ggplot(data = df, aes(x = x, y = y)) + geom_smooth(method = "lm", se=TRUE, 
 p
 ```
 
+[The help file on CRAN](https://cran.r-project.org/web/packages/ggplot2/ggplot2.pdf)
+
 #### `Coefplot` 
 
 #### Basic Prediction Methods & Procedures 
