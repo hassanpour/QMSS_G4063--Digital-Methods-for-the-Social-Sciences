@@ -9,7 +9,7 @@ In addition to the possibilities for the design, which we will discuss in detail
 
 #### `ggplot2` and plotting regression results
 
-`ggplot` is unique in its strucutre for additive _layer_ design. For adding each graphical component, you just include one more _layer_ with `+...`.
+`ggplot` is unique in its strucutre for additive _layer_ design. For adding each graphical component, you just include one more _layer_ with `+...`. Here is a simple start:
 
 ```r
 library(ggplot2)
@@ -18,6 +18,13 @@ df <- data.frame(x = c(1:100))
 df$y <- 2 + 3 * df$x + rnorm(100, sd = 40)
 p <- ggplot(data = df, aes(x = x, y = y)) + geom_smooth(method = "lm", se=TRUE, color="black", formula = y ~ x) + geom_point()
 p
+```
+
+Try adding basic features to the plot you already have
+
+```r
+p+geom_line()
+p+geom_()
 ```
 
 [The help file on CRAN](https://cran.r-project.org/web/packages/ggplot2/ggplot2.pdf)
@@ -42,6 +49,12 @@ A number of ready parameters can be used as independent variables for estimating
 * Sentiement of tweets
 * Retweet statistics of each candidate's corpus
 * Network parameters of candidate's conversation network
+
+Check the following two write-ups
+
+[Twitter for prediction 1](http://www.g-sidorov.org/SEL.pdf)
+[Twitter for prediction 2](http://www.umiacs.umd.edu/~jimmylin/publications/Lin_Kolcz_SIGMOD2012.pdf)
+
 
 #### Sample 3rd Assignments
 
