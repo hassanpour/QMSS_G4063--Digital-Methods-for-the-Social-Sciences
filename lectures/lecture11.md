@@ -6,6 +6,8 @@ Today we are going to talk about the basics of prediction based on the twitter d
 
 #### `ggplot2` and plotting regression results
 
+`ggplot` is unique in its strucutre for additive _layer_ design. For adding each graphical component, you just include one more _layer_ with `+...`.
+
 ```r
 library(ggplot2)
 
