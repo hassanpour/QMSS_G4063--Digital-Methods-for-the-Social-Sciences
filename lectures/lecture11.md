@@ -51,7 +51,7 @@ A number of ready parameters can be used as independent variables for estimating
 * Retweet statistics of each candidate's corpus
 * Network parameters of candidate's conversation network (based on what we discussed earlier in class)
 
-Note that the IVs you use for each candidate are measured daily, and are correlated in time and space. Geocoded tweets are valuable, exactly because you can include some socioeconomic controls for 'states of origin'. Note that temporal correlations are often day by day, so controlling for the DV from time-1 should help. 
+Note that the IVs you use for each candidate are measured daily, and are correlated in time and space. Geocoded tweets are valuable, exactly because you can include some socioeconomic controls for 'states of origin'. Note that temporal correlations are often day by day, so controlling for the DV from time-1 should help. Another cogent strategy is to regress "variations" in DV on "variations" of IVs of interest. 
 
 
 
