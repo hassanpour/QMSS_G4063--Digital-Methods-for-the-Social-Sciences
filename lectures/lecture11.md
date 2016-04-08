@@ -40,6 +40,7 @@ coefplot(model1)
 ```
 
 [The help file on CRAN](https://cran.r-project.org/web/packages/coefplot/coefplot.pdf)
+
 ----
 #### Basic Prediction Methods & Procedures 
 
