@@ -30,3 +30,16 @@ coefplot(model1)
 [The help file on CRAN](https://cran.r-project.org/web/packages/coefplot/coefplot.pdf)
 
 #### Basic Prediction Methods & Procedures 
+
+A number of ready parameters can be used as independent variables for estimating the prospects of each candidate's campaign. A number of such parameters are:
+
+* Volume of tweets
+* Sentiement of tweets
+* Retweet statistics of each candidate's corpus
+* Network parameters of candidate's conversation network
+
+#### Sample 3rd Assignments
+
+[Link1](https://www.dropbox.com/s/ucgn4zolg4wwink/Assignment%203%20Writeup.docx?dl=0), [Link2](https://www.dropbox.com/s/9wkmkmfvcliak7e/Adnan%20Hajizada%20PS3.docx?dl=0), [Link3](https://www.dropbox.com/s/nr9i97avm6blor2/HW3_GeerChen.pdf?dl=0)
+
+
