@@ -2,7 +2,10 @@
 
 ### Statistical Analysis & Visualization, Part I
 
-Today we are going to talk about the basics of prediction based on the twitter data we have been collecting so far. Ideally the data should allow you to predict the results of a couple of upcoming primaries and test your predictions against real world results.  
+Today we are going to talk about the basics of prediction based on the twitter data we have been collecting so far. Ideally the data should allow you to predict the results of a couple of upcoming primaries and test your predictions against real world results. 
+
+In addition to the possibilities for the design, which we will discuss in detail later, there are two types of regression results visualizations I would like to mention. First using `ggplot2` to present the variations of your Dependent Variable (DV) over a given Independent Variable (IV). In addition to `ggplot2`, a very useful and ready tool to use to visualize the impact of a given multiplier in your regressioin analysis is `coefplot`. With these two basic tools, you can present a sufficient visualization to demonostrate the importance of a given IV. 
+
 
 #### `ggplot2` and plotting regression results
 
