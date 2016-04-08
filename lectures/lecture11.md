@@ -40,7 +40,7 @@ coefplot(model1)
 ```
 
 [The help file on CRAN](https://cran.r-project.org/web/packages/coefplot/coefplot.pdf)
-
+----
 #### Basic Prediction Methods & Procedures 
 
 A number of ready parameters can be used as independent variables for estimating the prospects of each candidate's campaign. A number of such parameters are:
@@ -48,13 +48,21 @@ A number of ready parameters can be used as independent variables for estimating
 * Volume of tweets
 * Sentiement of tweets
 * Retweet statistics of each candidate's corpus
-* Network parameters of candidate's conversation network
+* Network parameters of candidate's conversation network (based on what we discussed earlier in class)
+
+Note that the IVs you use for each candidate are measured daily, and are correlated in time and space. Geocoded tweets are valuable, exactly because you can include some socioeconomic controls for 'states of origin'. Note that temporal correlations are often day by day, so controlling for the DV from time-1 should help. 
+
+
+
+----
+
 
 Check the following two write-ups
 
-[Twitter for prediction 1](http://www.g-sidorov.org/SEL.pdf)
-[Twitter for prediction 2](http://www.umiacs.umd.edu/~jimmylin/publications/Lin_Kolcz_SIGMOD2012.pdf)
+* [Twitter for prediction 1](http://www.g-sidorov.org/SEL.pdf)
+* [Twitter for prediction 2](http://www.umiacs.umd.edu/~jimmylin/publications/Lin_Kolcz_SIGMOD2012.pdf)
 
+----
 
 #### Sample 3rd Assignments
 
