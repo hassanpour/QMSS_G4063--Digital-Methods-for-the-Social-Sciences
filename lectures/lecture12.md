@@ -10,4 +10,4 @@ Before that, a few notes on Data Science in Social Science, and the road from he
 
 ##### Sample Visualizations/Reports, Assignment 4
 
-[Link1](), [Link2](), [Link3](), [Link4]()
+[Link1](https://arg2211.shinyapps.io/shinyapp2/), [Link2](https://arg2211.shinyapps.io/shinyapp2/), [Link3](), [Link4]()
