@@ -11,13 +11,16 @@ Before that, a few notes on Data Science in Social Science
 -----
 ###### Regression results presentation
 
-More, an example of confidence interval, and coefficient signs, [link](http://www.princeton.edu/~jkastell/graphs.pdf)
+ More, an example of confidence interval, and coefficient signs, [link](http://www.princeton.edu/~jkastell/graphs.pdf)
+
 -----
 ###### Review, and the Final Project
 
 Elements of prediction
 * Sentiment Analysis
 * A quick review of panel techniques: 1. Clustering your SEs 2. RE and FE analysis 3. Statebased controls
+
+
 -----
 
 
