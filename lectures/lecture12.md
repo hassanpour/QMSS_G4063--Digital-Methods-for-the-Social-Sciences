@@ -4,7 +4,7 @@
 
 Continuing on our discussion of regression results presentation, and learning & prediction with social media data
 
-Before that, a few notes on Data Science in Social Science
+Before that, a few notes on Data Science in Social Sciences
 
 -----
 ###### Sample Assignment 4
