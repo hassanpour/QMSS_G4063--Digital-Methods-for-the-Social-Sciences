@@ -10,6 +10,7 @@ Before that, a few notes on Data Science in Social Science
 ###### Sample Assignment 4
 -----
 ###### Regression results presentation
+
 More, an example of confidence interval, and coefficient signs, [link](http://www.princeton.edu/~jkastell/graphs.pdf)
 -----
 ###### Review, and the Final Project
