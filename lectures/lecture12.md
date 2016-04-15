@@ -23,6 +23,14 @@ Elements of prediction
 
 -----
 
+Using Twitter data for prediction with time series data?
+
+* [Predicting the stock market with Twitter data](http://www.ickn.org/documents/COINs2010_Twitter4.pdf)
+* [Twitter mood and the stock market](http://arxiv.org/pdf/1010.3003.pdf)
+* [Predicting U.S. primary elections with Twitter data](http://snap.stanford.edu/social2012/papers/shi.pdf)
+
+-----
+
 
 ###### Sample Visualizations/Reports, Assignment 4
 
