@@ -18,8 +18,12 @@ Before that, a few notes on Data Science in Social Sciences
 
 Elements of prediction
 * Sentiment Analysis
-* A quick review of panel techniques: 1. Clustering your SEs 2. RE and FE analysis 3. Statebased controls
-
+* A quick review of panel techniques: 
+1. Clustering your SEs 
+2. RE and FE analysis 
+3. Statebased controls
+4. Including a lagged version of the DV for time dependence 
+5. Using _changes_ instead of absolute values
 
 -----
 
