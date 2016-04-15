@@ -20,10 +20,10 @@ Elements of prediction
 * Sentiment Analysis
 * A quick review of panel techniques: 
      * Clustering your SEs 
-- RE and FE analysis 
-- Statebased controls
-- Including a lagged version of the DV for time dependence 
-- Using _changes_ instead of absolute values
+     * RE and FE analysis 
+     * Statebased controls
+     * Including a lagged version of the DV for time dependence 
+     * Using _changes_ instead of absolute values
 
 -----
 
