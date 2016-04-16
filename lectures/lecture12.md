@@ -35,7 +35,7 @@ Using Twitter data for prediction with time series data?
 
 -----
 
-[Latex template for your final prjoect reports](https://www.aeaweb.org/journals/aer/submissions/accepted-articles/styleguide)
+[Latex template for your final project reports](https://www.aeaweb.org/journals/aer/submissions/accepted-articles/styleguide)
 
 -----
 
