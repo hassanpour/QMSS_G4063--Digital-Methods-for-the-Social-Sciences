@@ -46,4 +46,4 @@ Reports: [Link1](https://www.dropbox.com/s/8e8c6vl94u07u1y/HW4_GeerChen.pdf?dl=0
 
 Apps: [Link4](https://katered8.shinyapps.io/Topic_Modeling_app/), [Link5](https://arg2211.shinyapps.io/shinyapp2/).
 
-
+Presentations: Day 1: [Link1](https://www.dropbox.com/s/rrvqpkk4kby3b5h/final%20data%20vis%20project.pptx?dl=0), [Link2](https://www.dropbox.com/s/u71sdot8jzdaoxa/data%20viz%20final.pptx?dl=0)
