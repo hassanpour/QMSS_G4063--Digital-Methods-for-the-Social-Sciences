@@ -78,4 +78,12 @@ Familiarity with relevant software tools would be a plus, but is not necessary a
 
 ###[Lecture 12](/lectures/lecture12.md)
 
+## Sample Final Reports
+
+####[Report1](https://www.dropbox.com/s/21dzoz97goupk1q/Final_Project_Report%20%281%29_McKillop.pdf?dl=0)
+####[Report2](https://www.dropbox.com/s/p971d1e0m0tnig8/Data%2BViz%2BFinal%2BReport%2B_Twitter%2BProphecies_Islam.pdf?dl=0)
+####[Report3](https://www.dropbox.com/s/4kcwryjuh3f8aut/Tweeting%2Babout%2BWomen%E2%80%99s%2BRights%2Band%2Bthe%2B2016%2BElection%2B-%2BLing%2BBai%2Band%2BAmanda%2BGates.pdf?dl=0)
+####[Report4](https://www.dropbox.com/s/dn1d43ehzqd5mix/FinalProject_Report_Geer.pdf?dl=0)
+####[Report5](https://www.dropbox.com/s/3leel0jioalmdgd/final%2Bpaper_Monica_Nadia.pdf?dl=0)
+
 
