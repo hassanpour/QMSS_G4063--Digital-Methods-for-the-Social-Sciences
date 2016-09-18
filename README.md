@@ -11,7 +11,7 @@
 * [Daniel Kronovet](http://kronosapiens.github.io/)
 * Luronne Vaval
 
-## Corrdinator
+## Coordinator
 
 * [Kay Kastner](emailto: kjk2124@columbia.edu)
 
